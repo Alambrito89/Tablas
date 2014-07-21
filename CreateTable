@@ -7,7 +7,7 @@
   	<link href="../style/style.css" rel="stylesheet">
   	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   	<link href="../style/estilo.css" rel="stylesheet">
-    <script type="text/javascript">
+    	<script type="text/javascript">
     	function crearTabla(value) {
     		var value = value;
     		var i = 1;
@@ -106,7 +106,7 @@
   	</script>
   	
 	</head>
-  <body onload="cargar()">
+  <body>
     <label for="numeroMateria">Numero Materias Primas</label>
 				<select id="numeroMateria" class="input-block-level" name="numeroMateria" onchange="crearTabla(this.value)">
 				<option value="0" style="width:70%" selected disabled>Selecciona</option>
