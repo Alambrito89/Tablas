@@ -116,6 +116,6 @@
 					}
 				?>
 				</select>
-	  <div id="contenidos">
+	  <div id="resultado">
   </body>
 </html>
